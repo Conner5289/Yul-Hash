@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="reset">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yul-Hash.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="add main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1710041646960" duration="25000" />
       <workItem from="1710041675425" duration="156000" />
       <workItem from="1710041842887" duration="255000" />
-      <workItem from="1710042103160" duration="613000" />
+      <workItem from="1710042103160" duration="7488000" />
     </task>
     <task id="LOCAL-00001" summary="semi work">
       <option name="closed" value="true" />
@@ -137,7 +135,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710041290616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <option name="closed" value="true" />
+      <created>1710042855844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710042855844</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add main">
+      <option name="closed" value="true" />
+      <created>1710042925295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710042925295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add main">
+      <option name="closed" value="true" />
+      <created>1710042975404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710042975404</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +192,8 @@
     <MESSAGE value="semi work" />
     <MESSAGE value="working round-robin no start form diff index" />
     <MESSAGE value="reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="add main" />
+    <option name="LAST_COMMIT_MESSAGE" value="add main" />
   </component>
 </project>
