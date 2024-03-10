@@ -15,38 +15,47 @@ private ArrayList<Integer> blackBox = new ArrayList<>();
 //        blackBox.add(76); //add L
 //        blackBox.add(101); //add e
 
-        blackBox.add(40); //add C
-        blackBox.add(40); //add o
-        blackBox.add(40); //add N
-        blackBox.add(40); //add n
-        blackBox.add(40); //add E
-        blackBox.add(40); //add r
-        blackBox.add(40); //add Y
-        blackBox.add(40); //add u
-        blackBox.add(40); //add L
-        blackBox.add(40); //add e
+        blackBox.add(0); //add C
+        blackBox.add(0); //add o
+        blackBox.add(0); //add N
+        blackBox.add(0); //add n
+        blackBox.add(0); //add E
+        blackBox.add(0); //add r
+        blackBox.add(0); //add Y
+        blackBox.add(0); //add u
+        blackBox.add(0); //add L
+        blackBox.add(0); //add e
 
     }
 
     public void hashGen(String userText){
-
         int txtLength = userText.length();
-        for (int i = 0; i < txtLength; i++) { //goes over every char in userTxt
-            int amountUp = (int)userText.charAt(i);
-            for (int j = 0; j < amountUp; j++) { //the count for the char ascii value
-                for (int k = 0; k < blackBox.size(); k++) {// goes to each of the elements and counts up
-                    int placeHold = blackBox.get(k);
-                    placeHold++;
-                    amountUp--;
-                    if (placeHold > 126){
-                        placeHold = 33;
-                    }
-                    blackBox.set(k,placeHold);
+        for (int i = 0; i < txtLength; i++) {
+            int rounds = userText.charAt(i);
+            int j = 0;
+            final int NUMBER_OF_OUTPUTS = 9; // do n - 1 for n being the number of output you want
+            while (rounds > 0){
+                if (j > 9){
+                    j = 0;
                 }
+            int holderVal;
+            holderVal = blackBox.get(j);
+            holderVal++;
+            blackBox.set(j,holderVal);
+            rounds--;
+            j++;
+
             }
-
-
         }
+
+
+
+
+
+
+
+
+
     }
 
     public  void hashDisplay(){
