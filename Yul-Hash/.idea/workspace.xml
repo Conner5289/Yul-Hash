@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="add main">
+    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="Working hash class, now need to add main.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.java" afterDir="false" />
@@ -74,24 +75,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Yul-Hash" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Yul-Hash" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,7 +96,11 @@
       <workItem from="1710041646960" duration="25000" />
       <workItem from="1710041675425" duration="156000" />
       <workItem from="1710041842887" duration="255000" />
-      <workItem from="1710042103160" duration="7488000" />
+      <workItem from="1710042103160" duration="10723000" />
+      <workItem from="1710252666070" duration="6000" />
+      <workItem from="1710252754116" duration="75000" />
+      <workItem from="1710259512929" duration="133000" />
+      <workItem from="1710369634674" duration="4818000" />
     </task>
     <task id="LOCAL-00001" summary="semi work">
       <option name="closed" value="true" />
@@ -159,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710042975404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Working hash class, now need to add main.">
+      <option name="closed" value="true" />
+      <created>1710049651184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710049651184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +193,11 @@
     <MESSAGE value="reset" />
     <MESSAGE value="fix" />
     <MESSAGE value="add main" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main" />
+    <MESSAGE value="Working hash class, now need to add main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working hash class, now need to add main." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
