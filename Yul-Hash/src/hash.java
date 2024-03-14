@@ -3,17 +3,17 @@ import java.util.ArrayList;
 public class hash {
 private final ArrayList<Integer> blackBox = new ArrayList<>();
 
-    public hash(){ //Constructor for default key
-        blackBox.add(67); //add C
-        blackBox.add(111); //add o
-        blackBox.add(78); //add N
-        blackBox.add(110); //add n
-        blackBox.add(69); //add E
-        blackBox.add(114); //add r
-        blackBox.add(89); //add Y
-        blackBox.add(117); //add u
-        blackBox.add(76); //add L
-        blackBox.add(101); //add e
+    public hash(){ //Constructor for default key CoNnErYuLe
+        blackBox.add(67);
+        blackBox.add(111);
+        blackBox.add(78);
+        blackBox.add(110);
+        blackBox.add(69);
+        blackBox.add(114);
+        blackBox.add(89);
+        blackBox.add(117);
+        blackBox.add(76);
+        blackBox.add(101);
 
     }
 
@@ -58,7 +58,7 @@ private final ArrayList<Integer> blackBox = new ArrayList<>();
 
     }
 
-    public  void hashDisplay(){ //prints out the arraylist which is the hash.
+    public  void hashDisplay(){ //turns the stored decimal ascii value into a hex value then prints it out to the screen
         for (int i = 0; i < blackBox.size(); i++) {
             int preHexVal = blackBox.get(i);
             while (preHexVal > 255){
