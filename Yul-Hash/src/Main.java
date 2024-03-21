@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
     public class Main {
@@ -10,6 +11,10 @@ import java.util.Scanner;
 
         hash mainHash;
         Scanner scnr = new Scanner(System.in);
+        guiForm myFrame = new guiForm();
+        myFrame.setVisible(true);
+        myFrame.setSize(500,500);
+        myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
         while (keepGoing) {
