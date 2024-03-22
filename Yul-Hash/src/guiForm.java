@@ -1,17 +1,21 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 public class guiForm extends JFrame {
     private JPanel mainPanel;
-    private JButton hashButton;
     private JLabel userTxt;
     private JLabel Output;
-    private JTextArea inputArea;
     private JLabel key;
     private JTextField keyInput;
     private JTextField hashOutput;
-    private JTextField textField1;
+    private JTextField userTxtInput;
+
+
+
+
 
     public guiForm(){
         setVisible(true);
@@ -19,12 +23,27 @@ public class guiForm extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Yul-Hash");
         setContentPane(mainPanel);
-        hashButton.addActionListener(new ActionListener() {
+
+        userTxtInput.addKeyListener(new KeyListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
+            public void keyTyped(KeyEvent e) {
+
+
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                hash myHash = new hash();
+                String userIn = userTxtInput.getText();
+                myHash.hashGen(userIn);
+                hashOutput.setText(myHash.hashDisplay());
 
             }
         });
     }
-
 }

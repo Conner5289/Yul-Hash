@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class hash {
 private final ArrayList<Integer> blackBox = new ArrayList<>();
@@ -58,16 +59,18 @@ private final ArrayList<Integer> blackBox = new ArrayList<>();
 
     }
 
-    public  void hashDisplay(){ //turns the stored decimal ascii value into a hex value then prints it out to the screen
+    public String hashDisplay(){ //turns the stored decimal ascii value into a hex value then prints it out to the screen
+        StringBuilder finalString = new StringBuilder();
         for (int i = 0; i < blackBox.size(); i++) {
             int preHexVal = blackBox.get(i);
             while (preHexVal > 255){
                 preHexVal -= 255;
             }
-            String hexVal =Integer.toHexString(preHexVal);
-            System.out.print(hexVal);
+            String hexVal = Integer.toHexString(preHexVal);
+            finalString.append(hexVal.toUpperCase());
+
         }
-        System.out.println();
+        return finalString.toString();
     }
 
 
