@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="Updated the READ.me">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guiForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guiForm.java" afterDir="false" />
+    <list default="true" id="293f66bb-4419-4ee0-9034-69b6a1a29b1f" name="Changes" comment="start of gui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guiForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/guiForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guiForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guiForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "git-widget-placeholder": "gui",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
@@ -106,6 +106,7 @@
       <workItem from="1710819034944" duration="117000" />
       <workItem from="1710984584881" duration="2000" />
       <workItem from="1710987467516" duration="1691000" />
+      <workItem from="1711053577721" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="semi work">
       <option name="closed" value="true" />
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710377775159</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="start of gui">
+      <option name="closed" value="true" />
+      <created>1711053653581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711053653581</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +226,8 @@
     <MESSAGE value="Working hash class, now need to add main." />
     <MESSAGE value="Added feature where the user can provide their own private key or use the default key." />
     <MESSAGE value="Updated the READ.me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the READ.me" />
+    <MESSAGE value="start of gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="start of gui" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
