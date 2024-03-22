@@ -11,6 +11,7 @@ public class guiForm extends JFrame {
     private JLabel key;
     private JTextField keyInput;
     private JTextField hashOutput;
+    private JTextField textField1;
 
     public guiForm(){
         setVisible(true);
